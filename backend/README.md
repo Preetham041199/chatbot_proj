@@ -95,12 +95,6 @@ App will open in browser at: `http://localhost:3000`
 
 ---
 
-## 📽️ Demo
-
-🎥 **Video Walkthrough**: [Insert YouTube or Google Drive demo link here]
-
----
-
 ## 🌐 Deployment
 
 You can host this full stack on:
