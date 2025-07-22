@@ -1,0 +1,116 @@
+/* App.css */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;
+  overflow: hidden;
+  color: gold;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.starfield {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(white 1px, transparent 1px);
+  background-size: 3px 3px;
+  animation: starScroll 60s linear infinite;
+  z-index: 0;
+}
+
+@keyframes starScroll {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 0 1000px;
+  }
+}
+
+.header {
+  z-index: 2;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.header h3 {
+  margin: 5px 0 20px;
+  font-weight: normal;
+}
+
+.chat-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: 2px solid gold;
+  padding: 15px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 700px;
+  height: 60vh;
+  overflow-y: auto;
+  z-index: 2;
+}
+
+.message {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.message.user span {
+  color: lightgreen;
+}
+
+.message.bot span {
+  color: white;
+}
+
+.input-area {
+  margin-top: auto;
+  display: flex;
+  width: 90%;
+  max-width: 700px;
+  z-index: 2;
+  padding: 15px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid gold;
+  background: black;
+  color: white;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.input-area button {
+  padding: 10px 20px;
+  border: 2px solid gold;
+  background: gold;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.input-area button:hover {
+  background: darkgoldenrod;
+}
