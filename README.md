@@ -1,10 +1,10 @@
-# 🤖 AI Chatbot with Gemini + Smart Tool Routing (Full Stack)
+# AI Chatbot with Gemini + Smart Tool Routing (Full Stack)
 
 A full-stack chatbot powered by **Google Gemini** and enhanced with real-world tools like weather, calculator, stock price, tech news, and code explainer. Built using **FastAPI** for the backend and **React** for the frontend.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 chatbot-gemini-tools/
@@ -23,17 +23,17 @@ chatbot-gemini-tools/
 
 ---
 
-## 🧠 Features
+## Features
 
-- 🔍 Intelligent tool routing using Gemini LLM
-- 🛠️ Built-in tools:
+-  Intelligent tool routing using Gemini LLM
+-  Built-in tools:
   - Weather info
   - Stock prices
   - Calculator
   - Tech news
   - Code explanation
-- 💬 Gemini handles open-ended/general queries
-- 🎯 Modular, lightweight and production-ready structure
+-  Gemini handles open-ended/general queries
+-  Modular, lightweight and production-ready structure
 
 ---
 
@@ -69,7 +69,7 @@ API will be live at: `http://localhost:8000/chat`
 
 ---
 
-### 💻 Frontend Setup (React)
+### Frontend Setup (React)
 
 #### Prerequisites:
 - Node.js & npm (or yarn)
@@ -95,18 +95,12 @@ App will open in browser at: `http://localhost:3000`
 
 ---
 
-## 📽️ Demo
-
-🎥 **Video Walkthrough**: [Insert YouTube or Google Drive demo link here]
-
----
-
-## 🌐 Deployment
+## Deployment
 
 You can host this full stack on:
 
-- **Backend (FastAPI)**: Render, Railway, Fly.io
-- **Frontend (React)**: Vercel, Netlify, Firebase Hosting
+- **Backend (FastAPI)**: Render, Railway, Fly.io (I used Render)
+- **Frontend (React)**: Vercel, Netlify, Firebase Hosting (I used Vercel)
 
 Make sure to update `.env` variables to production endpoints before deploying.
 
