@@ -37,9 +37,9 @@ chatbot-gemini-tools/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
-### 🔧 Backend Setup (FastAPI)
+### Backend Setup (FastAPI)
 
 #### Prerequisites:
 - Python 3.10+
@@ -106,7 +106,7 @@ Make sure to update `.env` variables to production endpoints before deploying.
 
 ---
 
-## 💡 Future Enhancements
+## Future Enhancements
 
 - LangGraph orchestration
 - WebSocket for streaming responses
@@ -116,7 +116,7 @@ Make sure to update `.env` variables to production endpoints before deploying.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Built by [@Preetham041199](https://github.com/Preetham041199)
 
