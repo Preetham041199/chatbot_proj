@@ -51,3 +51,9 @@ Tool:
         "response": response.text,
         "source": "gemini"
     }
+
+
+
+@app.get("/")
+def read_root():
+    return {"message": "Backend is working ✅"}
