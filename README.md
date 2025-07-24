@@ -116,10 +116,4 @@ Make sure to update `.env` variables to production endpoints before deploying.
 
 ---
 
-## Author
-
-Built by [@Preetham041199](https://github.com/Preetham041199)
-
----
-
 > If you found this helpful or inspiring, give the repo a ⭐ on GitHub!
